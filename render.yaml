@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: com.brasil.api
+    env: docker
+    dockerContext: ./com.brasil.api
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: CHANNEL_TOKEN
+        sync: false
+      - key: CHANNEL_SECRET
+        sync: false
+      - key: SAMPLE_FOLDER
+        value: com.brasil.api
