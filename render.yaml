@@ -2,7 +2,7 @@ services:
   - type: web
     name: com.brasil.api
     env: docker
-    dockerContext: ./src/main/java/com.brasil.api.com.brasil.api
+    dockerContext: .
     plan: free
     autoDeploy: false
     envVars:
