@@ -1,8 +1,8 @@
-Aqui está um exemplo de documentação para o seu projeto `com.brasil.api.com.brasil.api`, focado na implementação de paginação com Java 17, que pode ser usado para consulta e exemplo de uso da API:
+Aqui está um exemplo de documentação para o seu projeto `com.brasil.api`, focado na implementação de paginação com Java 17, que pode ser usado para consulta e exemplo de uso da API:
 
 ---
 
-# com.brasil.api.com.brasil.api
+# com.brasil.api
 
 Este é um exemplo de aplicação desenvolvida em **Java 17** para realizar consultas a uma API pública com suporte à **paginaçã**o.
 
