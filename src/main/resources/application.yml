@@ -1,0 +1,33 @@
+spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+  application:
+    name: com.brasil.api
+
+  main:
+    web-application-type: servlet
+
+  server:
+    port: 8080
+    servlet:
+      context-path: /
+
+  logging:
+    level:
+      org.springframework: DEBUG
+
+  cloud:
+    openfeign:
+      enabled: true
+
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+lombok:
+  enabled: true
